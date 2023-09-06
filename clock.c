@@ -9,6 +9,7 @@ int main(){
     int sec = 0;
 
     while(1){
+        printf("Current time:\n");
         printf("%02d : %02d : %02d ",hour,min,sec);
         sec++;
         if(sec == 60){
